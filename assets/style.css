@@ -1,0 +1,56 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Segoe UI', 'Roboto',
+        'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 2rem;
+}
+
+hr {
+    width: 50%;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(114, 114, 247);  
+}
+
+a:visited {
+    color: rgb(48, 48, 138);
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 5rem;
+}
+
+#image {
+    max-width: 100%;
+    display:block;
+    margin: auto;
+}
+
+#tribute-info {
+    text-align: justify;
+    margin: 10rem;
+}
+@media (max-width: 900px) {
+    #tribute-info {
+      margin: 0;
+    }
+  }
+h3 {
+    text-align: center;
+}
